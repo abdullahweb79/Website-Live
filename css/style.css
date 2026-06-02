@@ -105,6 +105,22 @@ textarea { resize: vertical; }
 .btn-link { color: var(--brown); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.03em; transition: color var(--transition); }
 .btn-link:hover { color: var(--brown-dark); }
 
+.cat-icon {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  margin-bottom: 12px;
+}
+
+.cat-icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: var(--brown);
+}
 /* ─── ALERT / FLASH ─────────────────────────────────── */
 .alert {
   display: flex;
@@ -143,8 +159,28 @@ textarea { resize: vertical; }
   align-items: center;
   justify-content: space-between;
 }
-.nav-logo { font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; color: var(--charcoal); cursor: pointer; }
-.nav-logo span { color: var(--brown); }
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo img {
+  height: clamp(32px, 4vw, 50px);
+  width: auto;
+}
+
+.nav-logo > span {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--charcoal);
+}
+
+.nav-logo .highlight {
+  color: var(--brown);
+}
 .nav-links { display: flex; align-items: center; gap: 36px; }
 .nav-links a {
   font-size: 0.88rem;
@@ -1178,4 +1214,18 @@ select:focus {
   .cat-grid { grid-template-columns: 1fr 1fr; }
   .hero-actions { flex-direction: column; }
   .card-form { padding: 24px 20px; }
+}
+@media (max-width: 768px) {
+  .nav-logo {
+    gap: 8px;
+  }
+
+  .nav-logo img {
+    height: 36px;
+    max-height: 36px;
+  }
+
+  .nav-logo > span {
+    font-size: 1.2rem;
+  }
 }
