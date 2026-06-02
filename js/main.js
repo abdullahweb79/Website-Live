@@ -148,10 +148,10 @@ const PRODUCTS = [
   category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(1.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(1.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(1.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(1.4)inner.jpeg', label: 'Inner' },
+    { src: '/img/Cross Body Bags/P(1.1)front.jpeg', label: 'Front' },
+    { src: '/img/Cross Body Bags/P(1.2)back.jpeg',  label: 'Back'  },
+    { src: '/img/Cross Body Bags/P(1.3)side.jpeg',  label: 'Side'  },
+    { src: '/img/Cross Body Bags/P(1.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
@@ -161,10 +161,10 @@ const PRODUCTS = [
   category: 'bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(2.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(2.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(2.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(2.4)inner.jpeg', label: 'Inner' },
+    { src: '/img/Cross Body Bags/P(2.1)front.jpeg', label: 'Front' },
+    { src: '/img/Cross Body Bags/P(2.2)back.jpeg',  label: 'Back'  },
+    { src: '/img/Cross Body Bags/P(2.3)side.jpeg',  label: 'Side'  },
+    { src: '/img/Cross Body Bags/P(2.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
@@ -174,10 +174,10 @@ const PRODUCTS = [
   category: 'bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(3.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(3.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(3.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(3.4)inner.jpeg', label: 'Inner' },
+    { src: '/img/Cross Body Bags/P(3.1)front.jpeg', label: 'Front' },
+    { src: '/img/Cross Body Bags/P(3.2)back.jpeg',  label: 'Back'  },
+    { src: '/img/Cross Body Bags/P(3.3)side.jpeg',  label: 'Side'  },
+    { src: '/img/Cross Body Bags/P(3.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
